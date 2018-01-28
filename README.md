@@ -26,6 +26,7 @@ TO DO LIST:
 
 INSTALLATION:
 Download zip file and install it as a new wordpress plugin.
+Don't forget to activate it ;)
 
 
 CUSTOMIZATION:
@@ -34,3 +35,7 @@ Edit with a text editor the main file and customize your message inside add_trac
 Basic HTML, PHP knowledge is required.
 
 2. Customize Shipping partners. See line 44-45 from the main file. 2 shipment partners are already defined. You can modify them and/or add others
+
+USAGE
+In Dashboard -> WooCommerce -> Orders -> View Order, in shipping details you will have the shipping info. Fill them in for every order.
+Once you change the status of the order to "Completed" and the completion order email is sent to the customer, this email will include also the shipping information.
