@@ -22,12 +22,15 @@ TO DO LIST:
 2. build plugin settings page including:
   - definition of shipment partners: Name, traking link, direct traking link logic
   - definition of the shipping info text that will be used in the customer email and on the orders page
-  
-INSTALLATION:
 
+
+INSTALLATION:
 Download zip file and install it as a new wordpress plugin.
 
-CUSTOMIZATION:
 
-The main actual subject of customization is the message sent to the customer. Edit with a text editor the main file and customize your message inside add_trackinginfo_to_email($order) function (starting on line 84 in woocommerce-add-tracking-info.php).
+CUSTOMIZATION:
+1. Customize email message
+Edit with a text editor the main file and customize your message inside add_trackinginfo_to_email($order) function (starting on line 84 in woocommerce-add-tracking-info.php). It is recommended to edit the text message between lines 94 and 103. If you know what you are doing dig deeper.
 Basic HTML, PHP knowledge is required.
+
+2. Customize Shipping partners. See line 44-45 from the main file. 2 shipment partners are already defined. You can modify them and/or add others
