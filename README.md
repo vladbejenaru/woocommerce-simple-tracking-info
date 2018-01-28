@@ -24,8 +24,10 @@ TO DO LIST:
   - definition of the shipping info text that will be used in the customer email and on the orders page
   
 INSTALLATION:
+
 Download zip file and install it as a new wordpress plugin.
 
 CUSTOMIZATION:
+
 The main actual subject of customization is the message sent to the customer. Edit with a text editor the main file and customize your message inside add_trackinginfo_to_email($order) function (starting on line 84 in woocommerce-add-tracking-info.php).
 Basic HTML, PHP knowledge is required.
